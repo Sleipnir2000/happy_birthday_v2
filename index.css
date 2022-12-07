@@ -1,0 +1,46 @@
+body {
+    background: #f6f6f6;
+    background-color: black;
+    font-family: 'Staatliches', cursive;
+  }
+  
+.countdownWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 70px;
+
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 24%, #ffcc70 49%, #c850c0 75%, #4158d0 100%);
+    background-size: 1800% 1800%;
+  
+    -webkit-animation: rainbow 80s linear infinite;
+    -z-animation: rainbow 80s linear infinite;
+    -o-animation: rainbow 80s linear infinite;
+      animation: rainbow 80s linear infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
