@@ -1,0 +1,13 @@
+@font-face {
+    font-family: cuteChinese;
+    src: url(cute_chinese.ttf) format('truetype');
+    src: url(cute_chinese.woff) format('woff');
+}
+
+body {
+    font-family: cutechinese;
+}
+
+.text {
+    font-family: cuteChinese;
+}
