@@ -13,7 +13,7 @@
 
     <script>
         function isTheTime() {
-            let current_time_shanghai = new Date(new Date().toLocaleString("en-US", {timeZone: "Asia/Shanghai"}));
+            let current_time_shanghai = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Shanghai" }));
             let open_time_shanghai = new Date("2022-12-12T00:00:00");
             return current_time_shanghai > open_time_shanghai;
         }
@@ -114,17 +114,10 @@
 
     <div class="countdownWrapper" onclick="return openPortal();">
         <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-        <a href="https://logwork.com/countdown-x18r" class="countdown-timer countdown-active" data-style="circles"
+
+        <a href="https://logwork.com/countdown-x12d" class="countdown-timer" data-style="circles" -
             data-timezone="Asia/Shanghai" data-language="ja" data-textcolor="#48e0a3" data-date="2022-12-12 00:00"
-            data-digitscolor="#48e0a3" data-unitscolor="#48e0a3"
-            style="position: relative; overflow: hidden; display: inline-block; width: 100%; height: 267px;"
-            id="time_countdown_694254" target="_blank"><iframe
-                src="https://logwork.com/widget/countdown/?text=%E7%94%9F%E6%97%A5%E5%80%92%E8%AE%A1%E6%97%B6&amp;timezone=Asia%2FShanghai&amp;width=&amp;style=circles&amp;uid=694254&amp;loc=https://logwork.com/countdown-x18r&amp;language=ja&amp;textcolor=%2348e0a3&amp;background=&amp;date=2022-12-12%2000%3A00&amp;digitscolor=%2348e0a3&amp;unitscolor=%2348e0a3&amp;url=http://127.0.0.1:3000/index.html"
-                id="countdown_iframe_694254" scrolling="no" allowtransparency="true" frameborder="0"
-                style="width: 100%; height: 100%; border: none; margin: 0px; visibility: visible;"></iframe>
-            <div id="ovd_694254"
-                style="width: 893px; height: 273px; position: absolute; left: 0px; top: 0px; opacity: 0;"></div>
-        </a>
+            data-digitscolor="#48e0a3" data-unitscolor="#48e0a3">生日倒计时</a>
     </div>
 
     <script>
