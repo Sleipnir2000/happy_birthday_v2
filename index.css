@@ -18,10 +18,7 @@ body {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
-    color: rgb(213, 161, 161);
     padding: 10px;
     width: 100%;
-    font-size: 70px;
-
-    background-size: 1800% 1800%;   
+    height: fit-content;
 }
