@@ -6,6 +6,7 @@
 
 body {
     font-family: cutechinese;
+    cursor: url(resources/icons8-cursor-64.png), auto;
 }
 
 .text {
