@@ -1,0 +1,30 @@
+.art_container {
+    text-align: center;
+    color: #c0c0c0;
+    z-index: 999;
+}
+
+.art_container pre {
+    display: inline-block;
+    text-align: left;
+}
+
+.birthcake_top {
+    color: pink;
+}
+
+.birthcake_button {
+    color: whitesmoke;
+}
+
+.birthcake_body {
+    color: #fffdd0;
+}
+
+.birthcake_middle {
+    color: #7b3f00;
+}
+
+body {
+    cursor: url("resources/lighter_icon_yellow.png") 15 0, auto;
+}
