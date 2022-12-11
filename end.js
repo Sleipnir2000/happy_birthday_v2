@@ -1,5 +1,5 @@
 function getPresent() {
-    alert("给你一些宝贝");
+    alert("ヽ༼ຈل͜ຈ༽ﾉ: 给你一些宝贝");
     const link = document.createElement('a');
     link.style.display = "none";
     link.href = "presents.zip";
