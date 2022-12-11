@@ -30,7 +30,7 @@ const hourGlass = new HourGlass(ACTION_LIMIT, () => {
     alert("💥💥💥💥💥💥💥💥💥💥💥💥💥💥")
     window.location.href = "https://wwwwwwwww.jodi.org/100cc/hqx/i900.html"
 });
-alert("谜题：点燃所有🕯️");
+window.onload = () => setTimeout(() => alert("谜题：点燃所有🕯️"), 3000);
 
 function lightCandle(index) {
     const candle = document.getElementById(`candle_${index}`);
