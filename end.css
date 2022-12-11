@@ -1,0 +1,35 @@
+.art_container {
+    position: relative;
+    text-align: center;
+    z-index: 9;
+}
+
+.art_container pre {
+    display: inline-block;
+    text-align: left;
+    z-index: 9;
+}
+
+.art_text {
+    color: pink;
+}
+
+.art_balloon {
+    color: red;
+}
+
+.art_link {
+    color: #8D5118;
+}
+
+.art_box {
+    color: gold;
+}
+
+.art_box {
+    cursor: grab;
+}
+
+body {
+    cursor: url("resources/fly-cursor-64.png"), auto;
+}
