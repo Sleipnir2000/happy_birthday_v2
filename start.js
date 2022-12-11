@@ -73,7 +73,8 @@ function touchCandle(event) {
         extinguishCandle(index);
     }
     if (isCandlesOn.reduce((acc,val) => acc && val)) {
-        alert("All candles on!");
+        window.location.href = "end.html";
+        return;
     }
     hourGlass.activate();
 }
